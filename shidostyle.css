@@ -38,8 +38,34 @@ position:absolute;
 #candle
 {
 z-index:5;  /* Le reste du content sera sur du 5 */ 
-left:214px;
+left:246px;
 position:absolute;
+top:50px;
 
+}
+#rectangleorange
+{
+top:634px;
+left:197px;
+z-index:5;
+position:absolute;
+}
+
+#location
+{
+top:319px;
+left:293px;
+position:absolute;
+z-index:5;
+	
+}
+
+
+#hdtest
+{
+top:189px;
+left:983px;
+position:absolute;
+z-index:5;		
 }
 	
