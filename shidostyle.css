@@ -22,3 +22,12 @@ left:146px;
 z-index:3;
 position:absolute;
 }
+
+#rectanglegauchea
+{
+z-index:4;
+left:166px;
+top:28px;
+position:absolute;
+	
+}
