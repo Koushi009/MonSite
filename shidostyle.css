@@ -7,6 +7,9 @@ top:0px;
 left:0px;
 
 }
+
+/* Les ombres ont foutus la merde grave, sketch ne considére pas les ombres comme des pixel, alors de DW si
+il faut donc recalculer toutes les pos ( shadows 10x10 mais pas toujours bien interprétées pas DW/Export PNG */
 #framedroite
 {
 
@@ -31,3 +34,12 @@ top:28px;
 position:absolute;
 	
 }
+
+#candle
+{
+z-index:5;  /* Le reste du content sera sur du 5 */ 
+left:214px;
+position:absolute;
+
+}
+	
