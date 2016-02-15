@@ -1,4 +1,10 @@
 @charset "UTF-8";
+@font-face
+{
+	font-family:Montserrat-Regular;
+	src : url('Montserrat-Regular.otf');
+}
+
 #background
 {
 z-index:1;	
@@ -68,4 +74,36 @@ left:983px;
 position:absolute;
 z-index:5;		
 }
+
+#tools
+{
+top:189px;
+left:808px;
+position:absolute;
+z-index:5;		
+}
+
+#client
+{
+top:189px;
+left:633px;
+position:absolute;
+z-index:5;		
+}
+
+#titre1
+{
+top:71px;
+left:641px;
+position:relative;
+z-index:5;	
+font-family: Montserrat-Regular;
+font-size: 35px;
+color: #98948D;
+letter-spacing: 1.55px;
+line-height: 43px;
+display:inline;
+
+}
+	
 	
