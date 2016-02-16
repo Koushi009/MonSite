@@ -3,6 +3,66 @@
 {
 	font-family:Montserrat-Regular;
 	src : url('Montserrat-Regular.otf');
+	
+	font-family:Montserrat-UltraLight;
+	src : url('Montserrat-UltraLight.otf');
+	
+	
+}
+
+
+.boutonorange
+{
+    width : 275px;
+    height : 68px;
+    display : block; /*Très important, sinon les dimensions ne sont pas prises en compte*/
+    background : url("Rectangle 9 + Shortlist.png") no-repeat;
+	background-size: 275px 68px;
+}
+
+div.bouton5
+
+{
+	position:absolute;
+	left:197px;
+	top:634px;
+	width:275px;
+	height:68px;
+	z-index:5;
+	
+}
+
+div.bouton4
+{
+width:219;
+height:32;
+position:absolute;
+z-index:5;
+top:557px;
+left:225px;
+
+}
+
+div.bouton3
+{
+width:219;
+height:32;
+position:absolute;
+z-index:5;
+top:504px;
+left:225px;
+
+}
+
+div.bouton2
+{
+width:219;
+height:32;
+position:absolute;
+z-index:5;
+top:454px;
+left:225px;
+
 }
 
 div.bouton1
@@ -122,15 +182,47 @@ z-index:5;
 {
 top:71px;
 left:641px;
-position:relative;
+position:absolute;
 z-index:5;	
 font-family: Montserrat-Regular;
 font-size: 35px;
 color: #98948D;
 letter-spacing: 1.55px;
 line-height: 43px;
-display:inline;
+display:inline-block;
 
 }
 	
+#titre2
+{
+	left: 641px;
+	top: 409px;
+	position: absolute;
+	display: inline;
+	z-index: 5;
+	/* R.O.S.E Online Proje: */
+	font-family: Montserrat-Regular;
+	font-size: 36px;
+	color: #98948D;
+	letter-spacing: 1.55px;
+	line-height: 43px;	
+}
+
+#projectlist
+
+{
+	top : 475px;
+	left : 735px;
+	width : 257px;
+	height: 174px;
+	position: absolute;
+	z-index: 5;
+	/* Osrose Mobile: */
+	font-family: Montserrat-UltraLight;
+	font-size: 24px;
+	color: #98948D;
+	letter-spacing: 1.03px;
+	line-height: 29px;
+	text-align: center;
+}
 	
