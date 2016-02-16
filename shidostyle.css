@@ -5,6 +5,33 @@
 	src : url('Montserrat-Regular.otf');
 }
 
+div.bouton1
+{
+top:404px;
+left:225px;
+width:219;
+height:32;
+position:absolute;
+z-index:5;
+
+}
+
+.bouton
+{
+    width : 219px;
+    height : 32px;
+    display : block; /*Très important, sinon les dimensions ne sont pas prises en compte*/
+    background : url("bouton.png") no-repeat;
+	background-size: 219px 32px;
+}
+
+.bouton:hover
+{
+    background-image : url("hooverb.png");
+}
+
+
+
 #background
 {
 z-index:1;	
