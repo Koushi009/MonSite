@@ -161,13 +161,12 @@ z-index:5;
 
 
 
-#background
-{
-z-index:1;	
-position:fixed;
-top:0px;
-left:0px;
 
+
+body {
+	background-image: url("background.png");
+	background-repeat:repeat;
+	
 }
 
 /* Les ombres ont foutus la merde grave, sketch ne considére pas les ombres comme des pixel, alors de DW si
