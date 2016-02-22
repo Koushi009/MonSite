@@ -17,6 +17,63 @@
 	
 }
 
+#name 
+{
+	position:absolute;
+	left:200px;
+	top:220px;
+	width:275px;
+	height:68px;
+	z-index:5;
+	text-align:center;
+	
+	/* Thom’s Corner: */
+font-family: Montserrat-Regular;
+font-size: 23.09px;
+color: #433E36;
+letter-spacing: 1px;
+line-height: 27px;
+}
+
+#name .ss1 
+{
+	/* Rose & Projects: */
+font-family: Raleway-Regular;
+font-size: 14px;
+color: #433E36;
+letter-spacing: 0.6px;
+line-height: 16px;
+}
+
+#name .ss2 
+{
+	/* Rose & Projects: */
+font-family: Raleway-Regular;
+font-size: 14px;
+color: #433E36;
+letter-spacing: 0.6px;
+line-height: 16px;
+}
+
+nav #locationtxt
+{
+	
+position:absolute;
+	left:202px;
+	top:325px;
+	width:275px;
+	height:68px;
+	z-index:5;
+	text-align:center;	
+	
+	/* Zant: */
+opacity: 0.5;
+font-family: Raleway-SemiBold;
+font-size: 17.31px;
+color: #433E36;
+line-height: 20px;
+	
+}
 
 .boutonorange
 {
@@ -199,6 +256,22 @@ letter-spacing: 1.55px;
 line-height: 43px;
 display:inline-block;
 
+}
+	
+	#stire1
+{
+	width:600px;
+		top: 313px;
+	left: 655px;
+	position: absolute;
+	z-index: 5;
+	font-family: raleway;
+	font-size: 14px;
+	color: #98948D;
+	letter-spacing: 1.55px;
+	line-height: 43px;
+	display: inline;
+	word-spacing: 125px;
 }
 	
 #titre2
