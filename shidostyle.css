@@ -163,11 +163,7 @@ z-index:5;
 
 
 
-body {
-	background-image: url("background.png");
-	background-repeat:repeat;
-	
-}
+
 
 /* Les ombres ont foutus la merde grave, sketch ne considére pas les ombres comme des pixel, alors de DW si
 il faut donc recalculer toutes les pos ( shadows 10x10 mais pas toujours bien interprétées pas DW/Export PNG */
