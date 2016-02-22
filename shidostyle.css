@@ -1,26 +1,40 @@
-@charset "UTF-8";
 @font-face
 {
 	font-family:Montserrat-Regular;
 	src : url('Montserrat-Regular.otf');
-	
-	font-family:Montserrat-UltraLight;
-	src : url('Montserrat-UltraLight.otf');
-	
-	font-family:LucidaGrande;
-	src : url('LucidaGrande.ttc');
-	
-	font-family:Raleway-SemiBold;
-	src : url('Raleway-SemiBold.ttf');
-	
-	
-	
-	
-	
-	
-	
+}
+
+@font-face
+
+{
+	font-family:Raleway-Regular;
+	src: url('fonts/Raleway-Regular.ttf');
 	
 }
+
+@font-face
+{
+ font-family:Raleway-SemiBold;
+ src:url('fonts/Raleway-SemiBold.ttf')
+
+}
+
+@font-face
+{
+ font-family:Montserrat-UltraLight;
+ src:url('fonts/Montserrat-UltraLight.otf')
+
+}
+
+@font-face
+
+{
+font-family:LucidaGrande;
+src:url('fonts/LucidaGrande.ttc')	
+}
+
+
+
 
 #name 
 {
@@ -265,7 +279,7 @@ display:inline-block;
 	left: 655px;
 	position: absolute;
 	z-index: 5;
-	font-family: raleway;
+	font-family: Raleway-Regular;
 	font-size: 14px;
 	color: #98948D;
 	letter-spacing: 1.55px;
@@ -308,10 +322,6 @@ display:inline-block;
 	line-height: 29px;
 	text-align: center;
 }
-	
-	* {
-  font-family: 'Open Sans', sans-serif;
-}
 .button-fill {
 	
   text-align: center;
@@ -340,6 +350,7 @@ display:inline-block;
   padding: 0 25px;
   line-height: 56px;
   letter-spacing: .1em;
+  font-family:Montserrat-UltraLight;
 }
 .button-inside {
   width: 0px;
@@ -377,6 +388,7 @@ display:inline-block;
   -moz-transform: translateX(50%);
   -ms-transform: translateX(50%);
   transform: translateX(50%);
+  font-family:Montserrat-UltraLight;
 }
 
 #menu a {
@@ -413,4 +425,3 @@ text-align: center;
 pointer-events: none;
 
 }
-
